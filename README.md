@@ -14,7 +14,8 @@
   "username":"hoa"
 }
 ```
-#### pst /auth/login
+### login
+#### post /auth/login
 ```javascript
 {
 	"password":"12345678",
