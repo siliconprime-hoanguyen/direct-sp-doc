@@ -9,9 +9,9 @@
 ```javascript
 {
   "email":"codehubio@gmail.com",
-  "password":"12345678",
-  "fullName":"hoanguyen",
-  "username":"hoa"
+  "password":"12345678", // must be more than 6
+  "fullName":"hoanguyen"
+
 }
 ```
 ### login
@@ -19,6 +19,6 @@
 ```javascript
 {
 	"password":"12345678",
-	"username":"hoa"
+	"email":"ab@c.com"
 }
 ```
