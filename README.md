@@ -22,3 +22,11 @@
 	"email":"ab@c.com"
 }
 ```
+
+### activate account
+#### post /auth/activate
+```javascript
+{
+	"token":"12345678"
+}
+```
