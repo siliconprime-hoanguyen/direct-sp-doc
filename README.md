@@ -2,7 +2,9 @@
 - intial dev: http://directapi.codehub.io
 
 ## test result
+```javascript
 http://test.codehub.io/index.html
+```
 
 ## installation
 
