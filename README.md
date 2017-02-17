@@ -6,11 +6,11 @@
 * run **start.sh**
 
 ## tests
-### unit tests for each services
+### unit tests for services
 ```javascript
 npm test
 ```
-### controller tests for each services
+### controller tests for enpoints
 ```javascript
 npm run-script test-controllers
 ```
