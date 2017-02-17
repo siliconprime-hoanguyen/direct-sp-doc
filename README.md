@@ -58,5 +58,5 @@ post /accounts/:accountId
 }
 ```
 ```javascript
-This API is for update general info of account so important fields like email, password, id will be IGNORED. To change those fields, please call other specific APIs
+this api is for update general info of account so important fields like email, password, id will be **ignored**. to change those fields, please call other specific apis
 ```
