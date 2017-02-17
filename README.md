@@ -6,7 +6,9 @@
 ### registration & authentication
 
 #### registration
-##### post /auth/register
+```javascript
+post /auth/register
+```
 ```javascript
 {
   "email":"codehubio@gmail.com",
@@ -16,7 +18,10 @@
 }
 ```
 #### activate
-##### post /auth/activate
+```javascript
+post /auth/activate
+````
+
 ```javascript
 {
 	"token":"12345678"
@@ -24,7 +29,11 @@
 ```
 
 #### login
-##### post /auth/login
+
+```javascript
+post /auth/login
+```
+
 ```javascript
 {
 	"password":"12345678",
@@ -34,6 +43,6 @@
 ### account service
 
 #### get account by account id
-
-#####
-##### get /accounts/:accountId 
+```javascript
+get /accounts/:accountId 
+```
