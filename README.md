@@ -5,7 +5,7 @@
 
 ### registration & authentication
 
-#### registration
+* **registration**
 ```javascript
 post /auth/register
 ```
@@ -17,7 +17,7 @@ post /auth/register
 
 }
 ```
-#### activate
+* **activate**
 ```javascript
 post /auth/activate
 ````
@@ -28,7 +28,7 @@ post /auth/activate
 }
 ```
 
-#### login
+* **login**
 
 ```javascript
 post /auth/login
@@ -42,7 +42,7 @@ post /auth/login
 ```
 ### account service
 
-#### get account by account id
+* **get account by account id**
 ```javascript
 get /accounts/:accountId 
 ```
