@@ -3,9 +3,10 @@
 
 ## apis
 
-### registration
+### registration & authentication
 
-#### post /auth/register
+#### registration
+##### post /auth/register
 ```javascript
 {
   "email":"codehubio@gmail.com",
@@ -14,19 +15,25 @@
 
 }
 ```
-### login
-#### post /auth/login
+#### activate
+##### post /auth/activate
+```javascript
+{
+	"token":"12345678"
+}
+```
+
+#### login
+##### post /auth/login
 ```javascript
 {
 	"password":"12345678",
 	"email":"ab@c.com"
 }
 ```
+### account service
 
-### activate account
-#### post /auth/activate
-```javascript
-{
-	"token":"12345678"
-}
-```
+#### get account by account id
+
+#####
+##### get /accounts/:accountId 
