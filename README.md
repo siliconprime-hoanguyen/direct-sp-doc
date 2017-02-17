@@ -40,7 +40,7 @@ post /auth/login
 	"email":"ab@c.com"
 }
 ```
-* **forgot password**
+* **sending email to reset password**
 
 ```javascript
 post /auth/forgotpassword
