@@ -46,3 +46,17 @@ post /auth/login
 ```javascript
 get /accounts/:accountId 
 ```
+* **update account by account id**
+```javascript
+post /accounts/:accountId 
+```
+```javascript
+{
+  "fullName":"hoanguyen",
+  "status": "active", // ['active', 'inactive', 'banned']
+  "userStatus": "online", // ['online', 'offline']
+}
+```
+```javascript
+This API is for update general info of account so important fields like email, password, id will be IGNORED. To change those fields, please call other specific APIs
+```
