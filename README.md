@@ -1,3 +1,20 @@
+## installation
+
+* for each module, e.g, authentication, please navigate into and type **npm install**.
+* config files are located at root folder and in service folders respectively, fields should be descriptive themselves.
+* modify port numbers in **start.sh** and config files for services
+* run **start.sh**
+
+## tests
+### unit tests for each services
+```javascript
+npm test
+```
+### controller tests for each services
+```javascript
+npm run-script test-controllers
+```
+
 ## server
 - intial dev: http://directapi.codehub.io
 
