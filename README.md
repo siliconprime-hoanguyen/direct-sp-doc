@@ -1,3 +1,9 @@
+## server
+- intial dev: http://directapi.codehub.io
+
+## test result
+http://test.codehub.io/index.html
+
 ## installation
 
 * for each module, e.g, authentication, please navigate into and type **npm install**.
@@ -14,9 +20,6 @@ npm test
 ```javascript
 npm run-script test-controllers
 ```
-
-## server
-- intial dev: http://directapi.codehub.io
 
 ## apis
 
