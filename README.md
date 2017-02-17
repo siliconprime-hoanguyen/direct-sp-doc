@@ -51,6 +51,18 @@ post /auth/forgotpassword
 	"email":"ab@c.com"
 }
 ```
+* **reset password with sent token**
+
+```javascript
+post /auth/resetpassword
+```
+
+```javascript
+{
+	"token":"xxx",
+	"newPassword":"12321321" //must be more than 6
+}
+```
 
 ### account service
 
