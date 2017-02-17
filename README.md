@@ -40,6 +40,18 @@ post /auth/login
 	"email":"ab@c.com"
 }
 ```
+* **forgot password**
+
+```javascript
+post /auth/forgotpassword
+```
+
+```javascript
+{
+	"email":"ab@c.com"
+}
+```
+
 ### account service
 
 * **get account by account id**
