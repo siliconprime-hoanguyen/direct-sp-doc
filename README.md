@@ -29,7 +29,7 @@ npm run-script test-controllers
 
 * **registration**
 ```javascript
-post /auth/register
+post /accounts
 ```
 ```javascript
 {
@@ -41,7 +41,7 @@ post /auth/register
 ```
 * **activate**
 ```javascript
-post /auth/activate
+post /accounts/activate/tokens
 ````
 
 ```javascript
