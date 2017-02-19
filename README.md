@@ -49,6 +49,16 @@ post /accounts/activate/tokens
 	"token":"12345678"
 }
 ```
+* **resend activate email**
+```javascript
+post /accounts/activate/tokens
+````
+
+```javascript
+{
+	"email":"ancsd@fdsfds.com"
+}
+```
 
 * **login**
 
