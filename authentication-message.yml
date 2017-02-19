@@ -1,4 +1,4 @@
-messages:
+  messages:
     requiredFieldNotProvided:
       code: ERROR_REQUIRED_FIELD_NOT_PROVIDED
       status: 400
@@ -25,16 +25,32 @@ messages:
       message: Your account is inactive.
       email: demo.siliconprime@gmail.com
       phone: (424) 333-0709
+    accountIsActive:
+      code: ERROR_ACCOUNT_IS_ACTIVE
+      status: 403
+      message: Your account is activated already.
+      email: demo.siliconprime@gmail.com
+      phone: (424) 333-0709
     accountIsBanned:
       code: ERROR_ACCOUNT_IS_BANNED
       status: 403
       message: Your account is banned.
       email: demo.siliconprime@gmail.com
       phone: (424) 333-0709
+    accountIsBannedOrInactive:
+      code: ERROR_ACCOUNT_IS_BANNED_OR_ACTIVE
+      status: 403
+      message: Your account is banned or inactive.
+      email: demo.siliconprime@gmail.com
+      phone: (424) 333-0709
     activationTokenExpired:
       code: ERROR_ACTIVATION_CODE_EXPIRED
       status: 400
       message: Your activation token does not exist or has been expired.
+    forgotPasswordTokenExpired:
+      code: ERROR_FORGOT_PASSWORD_CODE_EXPIRED
+      status: 400
+      message: Your forgot password token does not exist or has been expired.
     activationFailed:
       code: ERROR_ACTIVATION_FAILED
       status: 400
