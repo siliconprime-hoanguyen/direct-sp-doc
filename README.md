@@ -116,3 +116,11 @@ post /accounts/:accountId
 ```javascript
 this api is for update general info of account so important fields like email, password, id will be **ignored**. to change those fields, please call other specific apis
 ```
+
+### admin service
+
+* **ban account account id**
+```javascript
+post /admi/accounts/ban/:accountId 
+```
+
