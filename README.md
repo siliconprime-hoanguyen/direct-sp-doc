@@ -121,6 +121,6 @@ this api is for update general info of account so important fields like email, p
 
 * **ban account account id**
 ```javascript
-post /admi/accounts/ban/:accountId 
+post /admin/accounts/ban/:accountId 
 ```
 
