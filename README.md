@@ -51,7 +51,7 @@ post /accounts/activate/tokens
 ```
 * **resend activate email**
 ```javascript
-post /accounts/activate/tokens
+post /accounts/activate/sendemail
 ````
 
 ```javascript
