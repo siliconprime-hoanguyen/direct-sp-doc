@@ -136,6 +136,7 @@ post /notifications/addDevice
    accountId: 'xxxx',
    deviceBundleId: 'com.siliconprime.direct',
    deviceMode: 2,  //1 for sandbox, 2 for production
+   deviceToken: 'xxxx',
    type: 'pn' // pn: normal push notification, 'voip': reserve for callkit, default is 'pn'
    deviceType: 'ios' //or android
 }
