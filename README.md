@@ -124,3 +124,20 @@ this api is for update general info of account so important fields like email, p
 post /admin/accounts/ban/:accountId 
 ```
 
+
+### notification service
+
+* **add device**
+```javascript
+post /notifications/addDevice
+```
+```javascript
+{
+  	accountId: 'xxxx,
+    	bundleId: 'com.siliconprime.direct',
+      	mode: 2,  //1 for sandbox, 2 for production
+      	type: 'pn' // pn: normal push notification, 'voip': reserve for callkit, default is 'pn'
+      	deviceType: 'ios' //or android
+}
+```
+
