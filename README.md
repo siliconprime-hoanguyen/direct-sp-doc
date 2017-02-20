@@ -133,7 +133,7 @@ post /notifications/addDevice
 ```
 ```javascript
 {
-  	accountId: 'xxxx,
+  	accountId: 'xxxx',
     	bundleId: 'com.siliconprime.direct',
       	mode: 2,  //1 for sandbox, 2 for production
       	type: 'pn' // pn: normal push notification, 'voip': reserve for callkit, default is 'pn'
