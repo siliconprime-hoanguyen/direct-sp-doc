@@ -35,8 +35,9 @@ post /accounts
 {
   "email":"codehubio@gmail.com",
   "password":"12345678", // must be more than 6
-  "fullName":"hoanguyen"
-
+  "fullName":"hoanguyen",
+  "phone": "123123",
+  "countryCode":"+84"
 }
 ```
 * **activate**
