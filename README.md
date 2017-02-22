@@ -120,7 +120,7 @@ this api is for update general info of account so important fields like email, p
 
 * **change password**
 ```javascript
-put /accounts/:accountId 
+put /accounts/:accountId/password
 ```
 ```javascript
 {
