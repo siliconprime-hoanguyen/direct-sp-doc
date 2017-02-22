@@ -59,3 +59,7 @@
       code: ERROR_RESOURCE_NOT_EXIST
       status: 404
       message: There is no resource attached to this id.
+    invalidPassword:
+      code: INVALID_CURRENT_PASSWORD
+      status: 400
+      message: Current password is invalid.
