@@ -118,6 +118,18 @@ post /accounts/:accountId
 this api is for update general info of account so important fields like email, password, id will be **ignored**. to change those fields, please call other specific apis
 ```
 
+* **change password**
+```javascript
+put /accounts/:accountId 
+```
+```javascript
+{
+  "currentPassword":"xxxx",
+  "newPassword": "xxxxx"
+}
+```
+
+
 ### admin service
 
 * **ban account account id**
