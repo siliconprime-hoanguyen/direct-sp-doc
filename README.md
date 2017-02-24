@@ -14,13 +14,9 @@ http://test.codehub.io/index.html
 * run **start.sh**
 
 ## tests
-### unit tests for services
+
 ```javascript
 npm test
-```
-### controller tests for enpoints
-```javascript
-npm run-script test-controllers
 ```
 
 ## apis
@@ -177,4 +173,8 @@ post /streams/start/:streamId
 * **stop streaming request**
 ```javascript
 post /streams/stop/:streamId
+```
+* **authentication pusher channel** (called by the SDK)
+```javascript
+post /socket/authenticatepusherchannel
 ```
