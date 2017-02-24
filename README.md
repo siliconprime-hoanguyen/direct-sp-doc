@@ -155,3 +155,26 @@ post /notifications/addDevice
 }
 ```
 
+### stream service
+
+* **request streaming by email**
+```javascript
+post /streams/request
+```
+```javascript
+{
+"email" :"codehubio@gmail.com"
+}
+```
+* **accept streaming request**
+```javascript
+post /streams/accept/:streamId
+```
+* **start streaming request**
+```javascript
+post /streams/start/:streamId
+```
+* **stop streaming request**
+```javascript
+post /streams/stop/:streamId
+```
