@@ -178,3 +178,13 @@ post /streams/stop/:streamId
 ```javascript
 post /socket/authenticatepusherchannel
 ```
+
+* **get call list by accountid** 
+```javascript
+get streams/getByAccountId/:accountId?skip=0&limit=123
+```
+
+* **get active call list by accountid** 
+```javascript
+get streams/getActiveByAccountId/:accountId?skip=0&limit=123
+```
