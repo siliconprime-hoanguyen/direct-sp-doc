@@ -181,10 +181,26 @@ post /socket/authenticatepusherchannel
 
 * **get call list by accountid** 
 ```javascript
-get streams/getByAccountId/:accountId?skip=0&limit=123
+get streams/getbyaccountid/:accountId?skip=0&limit=123
 ```
 
 * **get active call list by accountid** 
 ```javascript
-get streams/getActiveByAccountId/:accountId?skip=0&limit=123
+get streams/getactivebyaccountid/:accountId?skip=0&limit=123
 ```
+
+* **get incoming call list by accountid** 
+```javascript
+get streams/getincomingbyaccountid/:accountId?skip=0&limit=123
+```
+
+* **get missed call list by accountid** 
+```javascript
+get streams/getmissedbyaccountid/:accountId?skip=0&limit=123
+```
+* **get on going call list by accountid** 
+```javascript
+get streams/getongoingbyaccountid/:accountId?skip=0&limit=123
+```
+
+
