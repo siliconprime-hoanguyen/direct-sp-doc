@@ -176,7 +176,7 @@ post /streams/stop/:streamId
 ```
 * **authentication pusher channel** (called by the SDK)
 ```javascript
-post /socket/authenticatepusherchannel
+post /notifications/socket/authenticatepusherchannel
 ```
 
 * **get call list by accountid** 
