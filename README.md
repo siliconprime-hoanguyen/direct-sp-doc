@@ -203,4 +203,9 @@ get streams/getmissedbyaccountid/:accountId?skip=0&limit=123
 get streams/getongoingbyaccountid/:accountId?skip=0&limit=123
 ```
 
+* **get call history** 
+```javascript
+get streams/gethistory/:accountId?skip=0&limit=123
+```
+
 
