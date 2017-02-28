@@ -181,7 +181,7 @@ post /socket/authenticatepusherchannel
 
 * **get call list by accountid** 
 ```javascript
-get streams/getbyaccountid/:accountId?skip=0&limit=123
+get streams/getbyaccountid/:accountId?skip=0&limit=123&status=missed,requested,streaming
 ```
 
 * **get active call list by accountid** 
