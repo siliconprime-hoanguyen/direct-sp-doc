@@ -208,4 +208,9 @@ get streams/getongoingbyaccountid/:accountId?skip=0&limit=123
 get streams/gethistory/:accountId?skip=0&limit=123
 ```
 
+* **get stream by stream id** 
+```javascript
+get streams/getbystreamId/:streamId
+```
+
 
