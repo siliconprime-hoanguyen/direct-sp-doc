@@ -21,6 +21,14 @@ npm test
 
 ## apis
 
+### protected api must be called with header
+
+```javascript
+{
+	Authorization: Bearer xxxxxxx //xxxxxxx is the token received when calling login API successfully
+}
+```
+
 ### registration & authentication
 
 * **registration**
@@ -95,11 +103,11 @@ post /auth/resetpassword
 
 ### account service
 
-* **get account by account id**
+* **get account by account id (protected)**
 ```javascript
 get /accounts/:accountId 
 ```
-* **update account by account id**
+* **update account by account id (protected)**
 ```javascript
 post /accounts/:accountId 
 ```
@@ -114,7 +122,7 @@ post /accounts/:accountId
 this api is for update general info of account so important fields like email, password, id will be **ignored**. to change those fields, please call other specific apis
 ```
 
-* **change password**
+* **change password (protected)**
 ```javascript
 put /accounts/:accountId/password
 ```
