@@ -25,7 +25,7 @@ npm test
 
 ```javascript
 {
-	Authorization: Bearer xxxxxxx //xxxxxxx is the token received when calling login API successfully
+	Authorization: Bearer xxxxxxx //xxxxxxx is the token received when calling login api successfully.
 }
 ```
 
