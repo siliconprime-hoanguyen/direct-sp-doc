@@ -133,6 +133,17 @@ put /accounts/:accountId/password
 }
 ```
 
+* **set online (protected)**
+```javascript
+post /accounts/:accountId/setonline
+```
+
+* **set offline (protected)**
+```javascript
+post /accounts/:accountId/setoffline
+```
+
+
 
 ### admin service
 
