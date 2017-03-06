@@ -1,4 +1,4 @@
-
+  eventName: streaming
   request:
     code: STREAM_REQUESTED
     message: New live stream request
