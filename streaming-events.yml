@@ -1,0 +1,16 @@
+
+  request:
+    code: STREAM_REQUESTED
+    message: New live stream request
+  accept:
+    code: STREAM_ACCEPTED
+    message: Stream accepted
+  start:
+    code: STREAM_STARTED
+    message: Stream started
+  stop:
+    code: STREAM_STOPPED
+    message: Stream stopped
+  cancelled:
+    code: STREAM_CANCELLED
+    message: Stream cancelled
