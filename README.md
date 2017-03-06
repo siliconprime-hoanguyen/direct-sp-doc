@@ -189,6 +189,11 @@ post /streams/accept/:streamId
 ```javascript
 post /streams/start/:streamId
 ```
+* **cancel streaming request** 
+```javascript
+post /streams/cancel/:streamId
+```
+
 * **stop streaming request**
 ```javascript
 post /streams/stop/:streamId
