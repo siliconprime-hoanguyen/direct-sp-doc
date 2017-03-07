@@ -63,3 +63,16 @@
       code: INVALID_CURRENT_PASSWORD
       status: 400
       message: Current password is invalid.
+    unauthenticated:
+      code: ERROR_UNAUTHENTICATED
+      status: 401
+      message: Unauthenticated.
+    notStreamOwner:
+      code: ERROR_NOT_STREAM_OWNER
+      status: 403
+      message: You are not owner of this stream.
+    notActiveUser:
+      code: ERROR_NOT_ACTIVE_USER
+      status: 400
+      message: This user is not active, therefore cannot be requested.
+
