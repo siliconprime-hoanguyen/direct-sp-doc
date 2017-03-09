@@ -170,6 +170,26 @@ post /notifications/addDevice
 }
 ```
 
+* **save chat message**
+```javascript
+post /messages
+```
+```javascript
+{
+   sender: 'abc', //optional
+   recipient: 'def', //optional
+   data:{
+   	streamId: '123' //optional
+	//can put any field here.
+   }
+}
+```
+* **get chat message by streamid, descending sort by createdAt by default**
+```javascript
+get /messages?streamId=abc&skip=0&limit=1
+```
+
+
 ### stream service
 
 * **request streaming by email**
