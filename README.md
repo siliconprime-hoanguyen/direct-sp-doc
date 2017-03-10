@@ -186,7 +186,7 @@ post /messages
 ```
 * **get chat message by streamid, descending sort by createdAt by default**
 ```javascript
-get /messages?streamId=abc&skip=0&limit=1
+get /messages/list/getByStreamId/:streamId
 ```
 
 
