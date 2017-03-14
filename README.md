@@ -74,7 +74,7 @@ post /auth/login
 ```javascript
 {
 	"password":"12345678",
-	"email":"ab@c.com"
+	"uid":"ab@c.com"
 }
 ```
 * **sending email to reset password**
