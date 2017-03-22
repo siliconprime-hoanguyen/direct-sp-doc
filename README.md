@@ -1,5 +1,5 @@
 ## server
-- intial dev: http://directapi.codehub.io
+- intial dev: http://dtapi.codehub.io
 
 ## test result
 ```javascript
@@ -39,7 +39,8 @@ post /accounts
 {
   "email":"codehubio@gmail.com",
   "password":"12345678", // must be more than 6
-  "fullName":"hoanguyen",
+  "firstName":"hoa",
+  "lastName":"nguyen",
   "phone": "123123",
   "countryCode":"+84"
 }
@@ -62,6 +63,17 @@ post /accounts/activate/sendemail
 ```javascript
 {
 	"email":"ancsd@fdsfds.com"
+}
+```
+
+* **resend activate sms**
+```javascript
+post /accounts/activate/sendsms
+````
+
+```javascript
+{
+	"phone":"12345"
 }
 ```
 
@@ -113,7 +125,10 @@ post /accounts/:accountId
 ```
 ```javascript
 {
-  "fullName":"hoanguyen",
+  "firstName":"hoa",
+  "lastName":"nguyen",
+  "countryCode":"12",
+  "phone":"4343"
   "status": "active", // ['active', 'inactive', 'banned']
   "userStatus": "online", // ['online', 'offline']
 }
