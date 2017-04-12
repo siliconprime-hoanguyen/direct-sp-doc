@@ -1,5 +1,5 @@
 ## server
-- intial dev: http://dtapi.codehub.io
+- intial dev: http://spapi.codehub.io
 
 ## test result
 ```javascript
